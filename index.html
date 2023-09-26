@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Sydney's Quiz</h1>
+    <form id="form">
+        <label>Player: </label>
+        <input type="text" id="name" name="name" placeholder="Enter Name"/><br>
+
+        <label>What is Sydney's Favorite Planet?</label>
+        <select id="planet">
+            <option>Mars</option>
+            <option>Saturn</option> 
+            <option>Jupiter</option>
+        </select><br>
+
+        <label>Where is Sydney From?</label>
+        <select id="place">
+            <option>Colorado</option>
+            <option>California</option>
+            <option>Illinois</option>
+        </select><br>
+
+        <label>What is Sydney's Favorite South Park Character?</label>
+        <select id="sp">
+            <option>Eric Cartman</option>
+            <option>Randy Marsh</option>
+            <option>Butters Stoch</option>
+        </select><br>
+
+        <button id="done">Click Me For Your Score</button><br>
+
+        <label id="score">Players Score:</label>
+        <progress id="progress" value="" max="99"></progress><br>
+
+        <button id="try">Try Again?</button><br>
+
+    </form>
+</body>
+</html>
